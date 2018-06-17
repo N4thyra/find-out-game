@@ -31,7 +31,7 @@ $(document).ready(function () {
 
 	angel.on('click', function () {
 		$(this).addClass('end');
-		msgText.html('<h1>Wrong turn!</h1> <br> This path ain\'t for ya <strong>sinner</strong>. <br> It\'s is only available to <strong>holy creatures...</strong> ');
+		msgText.html('<h1>Wrong turn!</h1> <br> This path ain\'t for ya <strong>sinner</strong>. <br> It\'s only available to <strong>holy creatures...</strong> ');
 		msg.fadeIn(300);
 	});
 
@@ -78,7 +78,7 @@ $(document).ready(function () {
 
 	boxItemFour.on('click', function () {
 		$(this).addClass('end');
-		msgText.html('<h1>Bad mother</h1> <br> You <strong>must\'ve seen</strong> it comin\'. <br> Your children love you so much :(. <br> Sometimes, they\'d hug you in the middle of <strong>the night, but</strong> <br> you go bananas and leave them alone... The keep crying. ');
+		msgText.html('<h1>Bad mother</h1> <br> You <strong>must\'ve seen</strong> it comin\'. <br> Your children love you so much :(. <br> Sometimes, they\'d hug you in the middle of <strong>the night, but</strong> <br> you go bananas and leave them alone... They keep crying. ');
 		msg.fadeIn(300);
 	});
 
